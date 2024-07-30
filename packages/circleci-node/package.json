@@ -22,9 +22,9 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "test": "cross-env NODE_ENV=test jest",
-    "docker:build": "docker build -t benawad/example:latest .",
+    "docker:build": "docker build -t sushilohol/circlecinodejs:latest .",
     "docker:login": "docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD",
-    "docker:push": "docker push benawad/example:latest",
+    "docker:push": "docker push sushilohol/circlecinodejs:latest",
     "ci:docker": "npm run docker:build && npm run docker:login && npm run docker:push",
     "ci:test": "cross-env NODE_ENV=test jest --ci --runInBand --detectOpenHandles --forceExit",
     "ci:deploy": "npm run ci:docker"
