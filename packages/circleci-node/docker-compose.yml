@@ -13,7 +13,7 @@ services:
     ports:
       - "5432:5432"
   server:
-    image: benawad/example:latest
+    image: sushilohol/circlecinodejs:latest
     ports:
       - "4000:4000"
     depends_on:
