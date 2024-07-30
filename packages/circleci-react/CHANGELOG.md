@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.24](https://github.com/Sushil-Ohol-Personel/circleci-monorepo/compare/v0.1.23...v0.1.24) (2024-07-30)
+
+**Note:** Version bump only for package circleci-react
+
+
+
+
+
 ## 0.1.22 (2024-07-30)
 
 **Note:** Version bump only for package circleci-react
