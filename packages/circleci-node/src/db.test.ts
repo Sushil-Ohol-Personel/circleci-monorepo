@@ -5,8 +5,8 @@ describe("db tests", () => {
   it("create user", async () => {
     const connection = await createConnection();
     const user = new User();
-    user.firstName = "Timber";
-    user.lastName = "Saw";
+    user.firstName = "Sushil";
+    user.lastName = "Ohol";
     user.age = 25;
     await connection.manager.save(user);
   });
